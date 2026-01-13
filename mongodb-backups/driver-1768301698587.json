@@ -1,0 +1,54 @@
+{
+  "database": "admin",
+  "collection": "user_resumes",
+  "documents": [
+    {
+      "_id": "1768301698580",
+      "userId": "current-user",
+      "fileName": "Manjeet_resume.pdf",
+      "jobRole": "Not specified",
+      "atsScore": 37,
+      "analysis": {
+        "strengths": [
+          "Includes quantifiable achievements and metrics",
+          "ATS-friendly formatting with simple bullets",
+          "Complete contact information provided",
+          "Includes professional links (LinkedIn/portfolio)"
+        ],
+        "weaknesses": [
+          "Missing professional summary",
+          "No work experience section",
+          "Missing education section",
+          "Limited use of action verbs",
+          "No dedicated skills section"
+        ],
+        "improvements": [
+          "Add a 2-3 line professional summary highlighting your key qualifications",
+          "Add detailed work experience with dates and responsibilities",
+          "Include your educational background and qualifications",
+          "Start bullet points with strong action verbs like \"managed\", \"developed\", \"implemented\"",
+          "Add a skills section listing your technical and soft skills",
+          "Consider adding a projects section to showcase your work"
+        ],
+        "suggestions": [
+          "Consider a complete resume rewrite focusing on ATS optimization",
+          "Use a clean, single-column format with standard fonts",
+          "Include quantifiable achievements for each position",
+          "Add relevant keywords from job descriptions",
+          "Ensure all sections are clearly labeled and organized"
+        ]
+      },
+      "createdAt": "2026-01-13T10:54:58.580Z",
+      "updatedAt": "2026-01-13T10:54:58.580Z"
+    }
+  ],
+  "timestamp": "2026-01-13T10:54:58.580Z",
+  "connection": "mongodb+srv://muskan:muskan@0509@cluster0.ffxypd2.mongodb.net/?appName=Cluster0",
+  "driverFormat": true,
+  "importInstructions": {
+    "step1": "Open MongoDB Compass",
+    "step2": "Connect to: mongodb+srv://muskan:muskan@0509@cluster0.ffxypd2.mongodb.net/?appName=Cluster0",
+    "step3": "Navigate to admin -> user_resumes",
+    "step4": "Click 'Import Data' and select this file"
+  }
+}
